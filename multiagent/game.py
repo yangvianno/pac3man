@@ -100,7 +100,7 @@ class Configuration:
         return hash(x + 13 * y)
 
     def __str__(self):
-        return "(x,y)="+str(self.pos)+", "+str(self.direction)
+        return "(x,y)=" + str(self.pos) + ", " + str(self.direction)
 
     def generateSuccessor(self, vector):
         """
@@ -110,7 +110,7 @@ class Configuration:
 
         Actions are movement vectors.
         """
-        x, y= self.pos
+        x, y = self.pos
         dx, dy = vector
         direction = Actions.vectorToDirection(vector)
         if direction == Directions.STOP:

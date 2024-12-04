@@ -13,7 +13,7 @@
 
 
 """
-Pacman.py holds the logic for the classic pacman game along with the main
+Pacman.py holds the  g with the main
 code to run a game.  This file is divided into three sections:
 
   (i)  Your interface to the pacman world:
